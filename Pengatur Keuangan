@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main(void)
+{
+  float a1, a;
+  cout << "Total uang saat ini: ";
+  cin >> a1;
+
+  cout <<"Bulan ke-\tTotal uang\tUntuk Kebutuhan\t\tUntuk Lain-lain\t\tUntuk Ditabung\n";
+  cout <<"----------------------------------------------------------------------------------------------\n";
+
+  a = a1 / 1000000;
+  cout << "1\t\t" << a << "\t\t" << a * 0.5 << "\t\t\t" << a *0.3 << "\t\t\t" << a * 0.2 << "\n";
+  cout << "nilai x1 juta\n";
+
+  return 0;
+}
